@@ -13,7 +13,8 @@ print ("Your journey to Egypt was difficult. You are faced with Pharaoh. You hav
 print ("You can either stand your ground, risking death, or leave, to go home where your children and wife are. Shall you 'stand' or 'comfort'?")
 answer = input("Enter your decision:")
 if answer == "stand":
-  print(
+  print ("Pharaoh attempts to intimidate you with the magic of his Pagan 'gods'. However, God prevails, his power devouring the power of the 'snakes'. You have faced Pharaoh, now you shall exact God's will.")
 elif answer == "comfort":
-  print(
+  print ("Pharoah's slaves escorted you out and took you away. You go home to your wife and kids, your wife embraced you. God, however, did not. His will shall be done, just not through you.")
+  
         
