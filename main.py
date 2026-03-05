@@ -8,7 +8,12 @@ if answer == "follow":
 elif answer == "flee":
   print("You have run far into the desert. Your name is not heard, and your blessings are taken. Further shall you stray, and your bones and figs rot. Stray Ending")
 print ("If you have chosen to 'flee', your journey has ended! Please leave!")
-
+print ("-----")
 print ("Your journey to Egypt was difficult. You are faced with Pharaoh. You have stated, 'Let my people go! The God of Israel has demanded that you free his people!' Pharaoh denied.")
-
+print ("You can either stand your ground, risking death, or leave, to go home where your children and wife are. Shall you 'stand' or 'comfort'?")
+answer = input("Enter your decision:")
+if answer == "stand":
+  print(
+elif answer == "comfort":
+  print(
         
