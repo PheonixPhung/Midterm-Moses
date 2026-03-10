@@ -18,17 +18,56 @@ while True:
     else:
       continue
 
-  print ("-----")
   print ("Your journey to Egypt was difficult. You are faced with Pharaoh. You have stated, 'Let my people go! The God of Israel has demanded that you free his people!' Pharaoh denied.")
   print ("You can either stand your ground, risking death, or leave, to go home where your children and wife are. Shall you 'stand' or 'comfort'?")
   answer = input("Enter your decision:")
 
   if answer == "stand":
-    print ("Pharaoh attempts to intimidate you with the magic of his Pagan 'gods'. However, God prevails, his power devouring the power of the 'snakes'. You have faced Pharaoh, now you shall exact God's will.")
+    print ("Pharaoh attempts to intimidate you with the magic of his Pagan 'gods'. However, God prevails, his power devouring the power of the 'snakes'. You have faced Pharaoh; now you shall exact God's will.")
 
   elif answer == "comfort":
-    print ("Pharoah's slaves escorted you out and took you away. You go home to your wife and kids, your wife embraced you. God, however, did not. His will shall be done, just not through you.")
+    print ("Pharaoh's servants escorted you out and took you away. You go home to your wife and kids, your wife embraced you. God, however, did not. His will shall be done, just not through you.")
     print("Your story has ended. Would you like to restart?")
     restart = input("(yes/no): ")
     if restart != "yes":
       break
+
+print ("Pharaoh has hardened his heart against God and the Israelites. He will not let God's people go, so be it. For God shall not let Pharaoh's people survive.")
+print ("The first of the plagues has begun. You have told Pharaoh that the God of the Hebrews shall punish him for his disobedience. Pharaoh laughs in your face, his eyes glint with the hardened heart of his.")
+
+print ("The Nile has turned to blood. The red seeps into the land of Egypt and stains the hands of the Egyptians with the undeniable red, human iron. Yet Pharaoh hardened his heart once more.")
+print ("The Egyptian pagan magicians have turned the blood back to water, but their eyes betray their disraught. Shall you show them 'mercy' or 'continue'?")
+answer = input("Enter your decision:")
+
+if answer == "continue":
+  print ("You have proceeded with God's will. Pharaoh and his people shall suffer for the crimes of blood dripping from their hands. The second plague shall begin.") 
+
+elif answer == "mercy":
+  print ("There is no rest for the wicked. God is merciful and patient, but he is not complacent. No mercy is shown to the unmerciful; you have strayed from God's chosen path. You are undeserving of his will.")
+
+print ("You tell the Pharaoh, 'the God of the Hebrews demands you to let his people go.' Pharaoh does not. The second of the plagues has begun. Frogs cover and stink the land of Egypt.")
+print ("And the people of Egypt have cried out, their lands drenched and the smell of the mass of frogs. Will your 'mercy' prevail or shall you let them 'suffer'?")
+answer = input("Enter your decision:")
+
+if answer == "mercy":
+  print ("You have cried out for the Lord to show the people mercy. With his heart, God has granted a moment of mercy upon the lands of Egypt. Yet, Pharaoh hardened his heart.")
+
+elif answer == "suffer":
+  print ("God's will shall be done with or without mercy. There is no mercy shown to the Egyptians; the next plague shall proceed.")
+
+print ("Pharaoh hath hardened his heart once more against the God of the Hebrews. So be it, for the remaining plagues shall begin. There is no mercy for Pharaoh, for Pharaoh desired no mercy for himself.")
+print ("Lice have overtaken Egypt. Pharaoh's people cry out and scratch until their heads bleed of the sins of their leader. Yet Pharaoh hath hardened his heart.")
+print ("Swarms of flies have flown into Egypt. Their crops are gone, their land corrupted. The Pharaoh has called you in.")
+print ("Pharaoh says that 'Your people shall be let go, but pray, pray that your God removes the corruption of my land.' Do you 'believe' him or 'proceed' with the plagues?")
+answer = input("Enter your decision:")
+
+if answer == "believe":
+  print ("There is no mercy in the eyes of Pharaoh. Only the heathen expression of the man with a hardened heart. He did not let God's people go. Proceed with the next plague.")
+
+elif answer == "proceed":
+  print ("And Pharaoh's people cry out as the God of the Hebrews descends disease upon their livestock. There is no rest, no food for the people of the corrupt. Yet their babies and women cry out.")
+
+print ("Such is life for the wicked.")
+print ("God hath spoken to you, 'Spread these fine ashes and the people of Egypt will have their skin boil.', and so be it. You spread the ashes into the wind. The skins of the Egyptians break out and boils eat them up alive with agony.")
+
+
