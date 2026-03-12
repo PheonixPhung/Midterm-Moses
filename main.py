@@ -91,10 +91,7 @@ if answer == "proceed":
 
 elif answer == "mercy":
   print ("Why have mercy for those who abuse God's people and defy his orders. Mercy is not for the wicked. (Not in the Old Testament.) You have left, straying from God's will. His will shall be done, but you are not.")
-  print("Your story has ended. Would you like to restart?")
-    restart = input("(yes/no): ")
-    if restart != "yes":
-      break
+
 
 print ("Pharaoh has hardened his heart; in turn, God has hardened Pharaoh's heart. Your responsibility is to tell the people of God to mark their doors with a pure lamb's blood.")
 print ("The angel of death bellowed upon the land of Egypt.")
@@ -116,11 +113,7 @@ if answer == 'persevere':
 
 elif answer == 'go':
   print ("Are you above the Lord? He has taken this scrutiny, what makes you think you are better? For all sins are the same in the eyes of the Lord. Lay down your staff, undeserving leader.")
-  print("Your story has ended. Would you like to restart?")
-    restart = input("(yes/no): ")
-    if restart != "yes":
-      break
-
+  
 print ("Moses! Hold out your staff! 'Hold' out your staff.")
 answer = input("Do as God commands:")
 
